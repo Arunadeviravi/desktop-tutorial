@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color:lightgrey;
+}
+select{
+    padding:5px;
+    border:2px black;
+    border-style: none;
+    border-radius: 2px;
+    resize: vertical;
+
+}
+input[type=submit] {
+    background-color:royalblue;
+    border:none;
+    color:white;
+    padding:12px 14px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=reset] {
+        background-color:red;
+        border:none;
+        color:white;
+        padding:12px 14px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+textarea{
+        height:20px;
+        width:150px;
+        overflow:auto;
+}
+input[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
