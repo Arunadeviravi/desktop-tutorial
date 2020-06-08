@@ -1,0 +1,23 @@
+ <head>
+        <script src="jquery.js"></script>
+        <script src="https://jqueryui.com"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+        $( function(){
+            $(".widget input[type=submit], .widget a, .widget button" ).button();
+            $("button,input,a").click(function(event) {
+                event.preventDefault();
+            } );
+        });
+        $(document).on('click', '#btnsubmit',function(){
+            alert("submitted");
+        });
+
+    </script>
+        </head>
+        <body>
+            <div class="widget">
+                <input type="submit" id="btnsubmit" value="submit">
+                <input type="reset" id="btnreset" value="reset">
+            </div>
+        </body>
